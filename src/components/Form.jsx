@@ -17,7 +17,7 @@ const Form = () => {
     e.preventDefault();
 
     try {
-      const res = await fetch("http://localhost:5000/submit", {
+      const res = await fetch("https://sheet-bcakend.onrender.com/submit", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
